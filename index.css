@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sens-serif;
+    text-align: center;
+}
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/939/961/non_2x/blur-circle-bokeh-green-leaf-background-blurry-yellow-leaves-rays-light-flare-nature-backdrop-free-photo.jpg');
+}
+h1{
+   background-color:#081b31 ; 
+   color: white;
+   text-align: center;
+   height: 5rem;
+   line-height: 5rem;
+}
+h2{
+    position: relative;
+    top: 25px;
+    font-size: 35px;
+    
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+.choice:hover{
+ background-color: #081b31;
+
+ cursor: pointer;
+
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    align-items: center;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+     gap: 5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
